@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>zomato</title>
+        <link href="./filter.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+    </head>
+
+    <body>
+        <div class="navibar"></div>
+        <div id="logo">aks</div>
+        <div class="login">
+            <!-- <label id="btn1">login!</label> -->
+            <label id="btn2"> Create Account</label>
+        </div>
+       <div class="container"><h1 class="header">Breakfast Places in Muambai</h1></div> 
+       <div class="container">
+        <div class="row">
+        <div class="filtersection col-3" >
+            <div class="filterhead ">Filters</div>
+            <div class="filtersubhead"> Select Location</div>
+            <div><select class="drpdown">
+                <option disabled selected>Select Location</option>
+
+                <option>Banglore</option>
+                <option>Manglore</option>
+                <option>Mumbai</option>
+                <option>Chennai</option>
+
+            </select></div>
+            <div class="filtersubhead">Cusine </div>
+            <div class="chk"> <input type="checkbox"> North Indian</div>            
+            <div class="chk"> <input type="checkbox"> South Indian</div>   
+            <div class="chk"> <input type="checkbox"> Chinese</div>            
+            <div class="chk"> <input type="checkbox"> Street Food</div>            
+            <div class="chk"> <input type="checkbox"> Streat Food</div> 
+            
+            <div class="filtersubhead">Cost for Two </div>
+                <div class="rdio"> <input type="radio" name="cost"> Less than &#8377;500</div>
+                <div class="rdio"> <input type="radio" name="cost"> &#8377;500 to &#8377;1000</div>
+                <div class="rdio"> <input type="radio" name="cost"> &#8377;1000 to 1500</div>
+                <div class="rdio"> <input type="radio" name="cost"> &#8377;1500 to 2000</div>
+                <div class="rdio"> <input type="radio" name="cost"> &#8377;2000 +</div>
+
+
+
+            
+           
+            <div class="filtersubhead">Sort </div>
+            <div class="rdio"> <input type="radio" name="sort"> Low to High</div>
+            <div class="rdio"> <input type="radio" name="sort"> High to Low</div>
+
+            
+
+
+        </div>
+        <!-- filter section ends here -->
+
+
+
+
+
+
+        <div class="resultsection col-9">
+            <div class="reultbox ">
+                    <div class="uppersection row">
+                        <div class="col-3 res" ><img src="./images/breakfast.png" ></div>
+                        <div class="col-9">
+                            <div class="reshead">The Big Chill Cakery </div>
+                            <div class="shop">FORT</div>
+                            <div class="shopaddr">Shop 1,plot D, Samrudhi Complex, Banglore</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="lowersection row">
+                        <div class="col-3">
+                            <div class="resdeschead">CUSINES</div>
+                            <div class="resdeschead" > Cost for Two</div>
+                        </div>
+                        <div class="col-9">
+                            <div class="resdesc">Bakery</div>
+                            <div class="resdesc"> &#8377; 700</div>
+                        </div>
+
+
+                    </div>
+                    
+            </div>
+            <!-- first result box ends here -->
+            <div class="reultbox">
+                <div class="uppersection row">
+                    <div class="col-3 res" ><img src="./images/breakfast.png" ></div>
+                    <div class="col-9">
+                        <div class="reshead">The Big Chill Cakery </div>
+                        <div class="shop">FORT</div>
+                        <div class="shopaddr">Shop 1,plot D, Samrudhi Complex, Banglore</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="lowersection row">
+                    <div class="col-3">
+                        <div class="resdeschead">CUSINES</div>
+                        <div class="resdeschead" > Cost for Two</div>
+                    </div>
+                    <div class="col-9">
+                        <div class="resdesc">Bakery</div>
+                        <div class="resdesc"> &#8377; 700</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="pagebuttons">
+                <button class="paginations"><</button>
+                <button class="paginations">1</button>
+                <button class="paginations">2</button>
+                <button class="paginations">3</button>
+                <button class="paginations">4</button>
+                <button class="paginations">5</button>
+                <button class="paginations">></button>
+
+
+            </div>
+        </div>
+        <!-- result section ends here -->
+       </div>
+       <!-- result row  end ^ -->
+       </div>
+       <!-- result container end ^ -->
+    </body>
+</html>

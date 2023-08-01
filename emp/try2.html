@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .navbar {
+        /* margin-top: 02%; */
+        /* margin-bottom: 10%; */
+        margin-right: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(22, 6, 61);
+        /* width: 100%; */
+        height: 80px;
+        color: antiquewhite;
+      }
+
+      body {
+        background-color: rgb(134, 31, 237);
+      }
+      .first{
+               display: flex;
+              justify-content: center;
+      }
+      .inputbox{
+        background-color:antiquewhite;
+        /* text-align: center; */
+        width: 40%;
+        margin-top: 05%;
+        font-size: 30px;
+        border-radius: 10%;
+        border: none;
+      }
+      .box{
+        width: 90%;
+        font-size: 30px;
+        margin-bottom: 30px;
+        border-radius: 1%;
+        font-family:'Courier New', Courier, monospace;
+        background-color:antiquewhite;
+
+      }
+      .head{
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 50px;
+      }
+      .submit{
+        width: 30%;
+        margin-right: 40px;
+        font-size: 35px;
+        margin-bottom: 30px;
+        border-radius: 1%;
+        font-family:'Courier New', Courier, monospace;
+        background-color:rgb(253, 217, 171);
+      }
+      .sub{
+        text-align: center;
+        width: 100%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Employee management System</h1>
+      <a
+        href="./tryhome.html"
+        style="text-decoration: none; color: antiquewhite; font-size: 18px "
+         class="anch">Home</a
+      >
+    </div>
+
+    <section class="first">
+      <div class="inputbox">
+        <div class="head"><img src="./user-solid.svg " width="3%"> Enter New Employee </div>
+        
+        <div style="margin-left: 50px; font-family:'Courier New', Courier, monospace; " >
+          <div> <label for="name">Name:      </label><br>
+          <input type="text" name="name" class="box" ></div>
+
+          <div> <label for="dob">D.O.B: </label>
+            <br>
+            <input type="date" name="dob" class="box"></div>
+
+          <div><label for="gender">Gender:  </label><br>
+          <select class="box"><option>Male</option><option>Female</option></select></div>
+
+          <div> <label for="mbno">Mobile No:</label><br>
+          <input type="number" name="mbno" class="box"></div>
+
+          <div> <label for="email">Email:</label><br>
+          <input type="email" name="email" class="box" ></div>
+
+          <div> <label for="addrs">Address:</label><br>
+          <input type="text" name="addrs" class="box"></div>
+
+          <div><label for="jprof">Job Profile:</label><br>
+          <input type="text" name="jprof" class="box"></div>
+
+          <div><label for="sal">Salary:</label><br>
+            <input type="number" name="sal" class="box"></div>
+
+          <div class="sub">
+            <input type="submit" class="submit">
+          </div>
+
+
+
+        
+
+        </div>
+        
+
+      </div>
+    </section>
+  </body>
+</html>

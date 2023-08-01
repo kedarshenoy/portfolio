@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <style></style>
+    <link href="./projects.css" rel="stylesheet" />
+
+    <script>
+      function show() {
+        // let element=document.getElementById("cv");
+        open((src = "./Kedar.pdf"));
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kedar's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="/" id="cv" onclick="show()" target="_blank">CV</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="projectmainheading">Projects</div>
+    <section class="first">
+      <div class="prtojectheading">A food ordering web application</div>
+      <iframe src="./bootstrap/home.html" width="70%" height="60%"></iframe>
+
+      <div class="prtojectdesc">
+        The Food Ordering Website is a dynamic and user-friendly web application
+        that allows users to explore a variety of delicious cuisines and place
+        orders seamlessly. Built using the MERN stack, which comprises MongoDB,
+        Express.js, React, and Node.js, this website aims to provide a
+        delightful food ordering experience to its users.The Food Ordering
+        Website is designed to be fully responsive, ensuring a seamless
+        experience across various devices, including desktops, tablets, and
+        mobile phones.
+        <div class="sidepoints">
+          Front-End:
+          <span class="values">HTML, CSS, Bootstrap, JavaScript, React</span>
+        </div>
+        <div class="sidepoints">
+          Back-End: <span class="values">Node.js, Express.js</span>
+        </div>
+        <div class="sidepoints">
+          Database: <span class="values">MongoDB</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="first" style="margin-bottom: 100px;">
+      <div class="prtojectheading">A Employee Management website</div>
+      <iframe src="./emp/tryhome.html" width="70%" height="60%"></iframe>
+
+      <div class="prtojectdesc">
+        The Employee Management System is an efficient web application
+        designed to streamline human resource operations within an organization.
+        Built using HTML, CSS, PHP, and SQL, this project provides a centralized
+        platform for managing employee data, payroll, attendance, and
+        performance.
+        <div class="sidepoints">
+          Front-End:
+          <span class="values">HTML, CSS, Bootstrap</span>
+        </div>
+        <div class="sidepoints">
+          Back-End: <span class="values">Php</span>
+        </div>
+        <div class="sidepoints">
+          Database: <span class="values">MySQL</span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(15, 6, 27);
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(67, 12, 140, 0.865);
+    height: 58px;
+    font-family: "Poppins", sans-serif;
+    color: antiquewhite;
+    padding-top: auto;
+    border-bottom: 2px solid rgb(82, 78, 78);
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0px;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    /* color: rgb(130, 193, 248); */
+    color: rgb(249, 249, 249);
+  }
+  nav ul a:hover {
+    /* color: rgb(249, 249, 249); */
+    font-size: 1.02em;
+    color: rgb(130, 193, 248);
+  }
+  .left {
+    font-size: 1.3rem;
+  }
+  nav li {
+    margin-right: 20px;
+    display: flex;
+    font-weight: 500;
+  }
+
+  .projectmainheading{
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .first{
+    text-align: center;
+  }
+
+  .prtojectheading{
+    font-size: 25px;
+    color: orangered;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .prtojectdesc{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: rgb(169, 164, 164);
+    text-align: justify;
+    
+  }
+
+  .text{
+    color: rgb(234, 33, 67);
+  }
+
+  .sidepoints{
+    color: antiquewhite;
+  }
+
+
+  .values{
+color: greenyellow;
+  }
